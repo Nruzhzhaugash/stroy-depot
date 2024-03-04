@@ -66,7 +66,7 @@ export default function SoloProd() {
 
   return (
     <section className="">
-      <h1 className="mb-5">{data.title}</h1>
+      <h1 className="mb-5 prod__title">{data.title}</h1>
       <div className="lg:flex mb-[35px]">
         <div className="mr-[126px] w-[100%] py-8 flex justify-center border-[2px] border-solid border-gray-500 image__product">
           <Image src={data.image} className="flex justify-center items-center object-contain" alt="Product" width={90} height={423} style={{ width: '100%', height: '423px' }} />

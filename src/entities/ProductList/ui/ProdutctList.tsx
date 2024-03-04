@@ -59,7 +59,7 @@ export default function ProductList() {
               width={500}
               height={300}
               alt="product"
-              className=" object-fill"
+              className=" object-contain"
               style={{ width: "100%", height: "180px" }}
             />
           </div>

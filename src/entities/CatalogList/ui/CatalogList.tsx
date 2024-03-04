@@ -1,5 +1,4 @@
 import React from 'react';
-import './CatalogList.scss';
 import Link from 'next/link';
 import PolyurethaneFoams from '@/shared/ui/Icon/icon5';
 import FoamGlue from '@/shared/ui/Icon/icon6';
@@ -9,6 +8,7 @@ import AerosolPaints from '@/shared/ui/Icon/icon9';
 import GroutForSeams from '@/shared/ui/Icon/icon10';
 import WallpaperAdhesives from '@/shared/ui/Icon/icon11';
 import Miscellaneous from '@/shared/ui/Icon/icon12';
+import './CatalogList.scss';
 
 export default function CatalogList() {
   const data = [

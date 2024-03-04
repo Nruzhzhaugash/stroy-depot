@@ -1,5 +1,5 @@
 .product__grid {
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(4, 22.8%);
   // 1fr
 }
 
@@ -101,13 +101,13 @@
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     justify-content: center;
-    grid-column: 15px;
+    grid-gap: 20px;
   }
 
   .product__item {
     width: 160.25px;
     margin-right: 0;
-    margin-right: 15px;
+    // margin-right: 15px;
 
     &:nth-child(2) {
       margin-right: 0px;
